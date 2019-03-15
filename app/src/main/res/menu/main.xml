@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item
+        android:id="@+id/action_Email"
+        android:orderInCategory="100"
+        android:title=" Email "
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_Contact"
+        android:orderInCategory="100"
+        android:title=" Contact "
+        app:showAsAction="never" />
+
+
+
+    <item android:title="Admin Only">
+
+        <menu>
+            <item
+                android:id="@+id/broadcast"
+                 android:title="Upload" />
+
+            <!--<item
+                android:id="@+id/mailcheck"
+                android:title="Check Mail Request" />
+
+            <item
+                android:id="@+id/drivecheck"
+                android:title="Check Drive Request" />-->
+
+
+            <item
+                android:id="@+id/mailcheck"
+                android:title="Schedule" />
+
+            <item
+                android:id="@+id/drivecheck"
+                android:title="Private" />
+
+
+
+            <item
+                android:id="@+id/mailcheck1"
+                android:title="Donation Details"/>
+
+
+
+        </menu>
+    </item>
+
+
+
+
+
+
+
+
+
+
+</menu>

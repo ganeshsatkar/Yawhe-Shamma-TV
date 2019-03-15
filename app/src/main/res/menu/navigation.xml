@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_request"
+        android:icon="@drawable/requesticon"
+        android:title="Prayer Request"
+       app:showAsAction="always|withText"/>
+
+
+    <item
+        android:id="@+id/navigation_donation"
+        android:icon="@drawable/bottom22"
+        android:title=" Donation"
+        app:showAsAction="always|withText"/>
+
+    <!--<item
+        android:id="@+id/navigation_testimonial"
+        android:icon="@drawable/bthree"
+        android:title="Testimonial"
+        app:showAsAction="always|withText"/>-->
+
+    <item
+        android:id="@+id/navigation_fullscreen"
+        android:icon="@drawable/bottom33"
+        android:title="Full Screen"
+        app:showAsAction="always|withText" />
+
+</menu>

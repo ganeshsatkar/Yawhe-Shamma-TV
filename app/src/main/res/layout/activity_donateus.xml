@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#a9a4a4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <ScrollView
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:background="@drawable/bag15"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+
+            <Button
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#eff5aa"
+                android:textColor="#0b0b0b"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:text="Donation Details ( Bank )"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/setting_LineColor"> </View>
+
+
+            <LinearLayout
+
+                android:id="@+id/name"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:padding="10dp"
+                android:clickable="true"
+                android:background="@drawable/textview_effect">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Acc Name  "
+                    android:layout_marginTop="10dp"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#edd711"/>
+
+                <ImageView
+                    android:id="@+id/img1"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/build"
+                    android:tint="#00000000"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="22dp"
+                    android:foregroundGravity="center"/>
+
+
+                <RelativeLayout
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="left|center">
+
+                    <TextView
+                        android:id="@+id/txt2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Yawhe Shamma Evangelical Church"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#e2fa04"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/setting_LineColor"> </View>
+
+
+
+
+            <LinearLayout
+                android:id="@+id/mapaddress"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:clickable="true"
+                android:background="@drawable/textview_effect">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Branch Name   "
+                    android:layout_marginTop="10dp"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#edd711"/>
+
+
+                <ImageView
+                    android:id="@+id/img2"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/add"
+                    android:tint="#00000000"
+                    android:layout_gravity="left|center"/>
+
+                <RelativeLayout
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="left|center">
+                    <TextView
+                        android:id="@+id/mapaddres"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ramwadi, Pune "
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#e2fa04"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/setting_LineColor"> </View>
+
+
+            <LinearLayout
+                android:id="@+id/stdcall"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:clickable="true"
+                android:background="@drawable/textview_effect">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Account No  "
+                    android:layout_marginTop="10dp"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#edd711"/>
+
+                <ImageView
+                    android:id="@+id/img4"
+                    android:layout_marginLeft="16dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/mobile"
+                    android:tint="#00000000"
+                    android:layout_gravity="left|center"/>
+
+                <RelativeLayout
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="left|center">
+                    <TextView
+                        android:id="@+id/text4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0261101055255"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#e2fa04"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/setting_LineColor"> </View>
+
+            <LinearLayout
+                android:id="@+id/email"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:clickable="true"
+                android:background="@drawable/textview_effect">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="IFSC Code  "
+                    android:layout_marginTop="10dp"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#edd711"/>
+
+                <ImageView
+                    android:id="@+id/img3"
+                    android:layout_marginLeft="25dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/mail"
+                    android:tint="#00000000"
+                    android:layout_gravity="left|center"/>
+
+                <RelativeLayout
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="left|center">
+                    <TextView
+                        android:id="@+id/email1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="CRNB0000261"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#e2fa04"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/setting_LineColor"> </View>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:text="@string/note"
+                android:textColor="#fdfc91" />
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/setting_LineColor"> </View>
+
+
+            <LinearLayout
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:clickable="true"
+                android:background="@drawable/textview_effect">
+
+                <Button
+                    android:padding="3dp"
+                    android:background="@drawable/paynowbutton"
+                    android:foregroundGravity="center"
+                    android:layout_width="170dp"
+                    android:layout_height="60sp"
+                    android:id="@+id/paynow"
+                    android:text="Donate To Church"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:textColor="#861b00"
+                    android:layout_margin="5dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    />
+
+
+                <Button
+                    android:padding="3dp"
+                    android:background="@drawable/paynowbutton"
+                    android:layout_width="170dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/paynow1"
+                    android:text="Gift To Pastor"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:textColor="#861b00"
+                    android:layout_margin="5dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    />
+
+               <!-- <RelativeLayout
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="left|center">
+
+                    <Button
+                        android:background="@drawable/paynowclick"
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/paynow1"
+                        android:text="Gift To Pastor"
+                        android:textSize="20dp"
+                        android:textColor="#8e2f6e"
+                        android:textStyle="bold"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_margin="5dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        />
+
+                </RelativeLayout>
+-->
+            </LinearLayout>
+
+
+
+
+
+
+            <View
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/setting_LineColor"> </View>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </ScrollView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/setting_LineColor"></View>
+</LinearLayout>
