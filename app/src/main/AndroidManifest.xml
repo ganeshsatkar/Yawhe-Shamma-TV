@@ -88,6 +88,11 @@
         android:label="Payment Gateway"
         android:parentActivityName=".Donateus"/>
 
+        <activity
+            android:name=".Designby"
+            android:label="Design By"
+            android:parentActivityName=".MainActivity" />
+
 
 
         <activity android:name=".Payment_gateway_pastor"
@@ -96,6 +101,25 @@
             tools:ignore="DuplicateActivity">
         </activity>
 
+
+
+        <service
+            android:name=".MessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/logochurch" />
+        <!-- Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more. -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
     </application>
+
+
 
 </manifest> <!-- \ android:theme="@style/SplashTheme" -->

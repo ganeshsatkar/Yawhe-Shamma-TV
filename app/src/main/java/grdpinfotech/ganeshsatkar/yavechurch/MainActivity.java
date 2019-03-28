@@ -454,16 +454,18 @@ import static android.content.Intent.createChooser;
 
         }
 
+        else if (id == R.id.designby) {
+            Intent i = new Intent(MainActivity.this, Designby.class);
+            startActivity(i);
+
+
+        }
 
 
 
 
 
-
-
-
-
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+            DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }

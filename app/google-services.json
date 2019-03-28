@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "98708836400",
+    "firebase_url": "https://yawhe-shamma-church.firebaseio.com",
+    "project_id": "yawhe-shamma-church",
+    "storage_bucket": "yawhe-shamma-church.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98708836400:android:278f92b7906086ee",
+        "android_client_info": {
+          "package_name": "grdpinfotech.ganeshsatkar.yavechurch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "98708836400-501b5as0tevgnfs67i1h59tqcflubfca.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "grdpinfotech.ganeshsatkar.yavechurch",
+            "certificate_hash": "cf6d157cf0a2ef8bbf495b1c82d8b776c5db1431"
+          }
+        },
+        {
+          "client_id": "98708836400-g61jkhj6ch65mtc33co6u7c2odrv5hbs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQIO3Ucp9WjPtskurz0_gDnbylXzFnjJc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "98708836400-g61jkhj6ch65mtc33co6u7c2odrv5hbs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

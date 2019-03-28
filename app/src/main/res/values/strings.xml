@@ -6,25 +6,26 @@
 
     <string name="action_settings">Settings</string>
     <string name="contactus1"><b> GRDP InfoTech, Pune </b></string>
-    <string name="contactus2">E-3,Jhandewala Estate,Rani Jhansi Marg,New Delhi-110055,
-    Phone:23529557,41398888
-    Email:delpress@bol.net.in</string>
-    <string name="contactus3">
-        M-12,Connaught Circus,
-        New Delhi-110001
-        Phone 23416313</string>
+
 
 
     <string name="welcommsg">Welcome to \n Yawhe Shamma Evangelical Church </string>
+
     <string name="tagline">
-        <b>“Send us around the world with the news of your saving power and your eternal plan for all mankind”</b> (Psalms 67:2)
+        <b> Send us around the world with the news of your saving power and your eternal plan for all mankind </b> (Psalms 67:2)
 
-\n\nPastor Narendra Gaikwad  is the founder and Senior Pastor of Yawhe Shamma Evanglical Church in Pune.  In response to the call of God he dedicated his life to Christ more than 20 years ago and a vision was delivered to him to start the ministry and establish Churches.
+\n\n Pastor Narendra Gaikwad  is the founder and Senior Pastor of Yawhe Shamma Evanglical Church in Pune.
+        In response to the call of God he dedicated his life to Christ more than 20 years ago and
+        a vision was delivered to him to start the ministry and establish Churches.
 
-\n\nPastor Gaikwad is mightily used by God in healing, deliverance and teaching ministry. Making his life count with God by making an impact with the Gospel and being committed to soul winning he has worked tirelessly over the years to establish 3 Churches around Pune and has been instrumental in equipping God’s people with the Word of God.
+\n\n Pastor Gaikwad is mightily used by God in healing, deliverance and teaching ministry.
+        Making his life count with God by making an impact with the Gospel and being committed
+        to soul winning he has worked tirelessly over the years to establish 3 Churches around Pune
+        and has been instrumental in equipping God’s people with the Word of God.
 
     </string>
-    <string name="marathitag">याव्हे शामा इव्हेन्जीकल चर्च मध्ये तुमचे स्वागत आहे.</string>
+
+   <!-- <string name="marathitag">याव्हे शामा इव्हेन्जीकल चर्च मध्ये तुमचे स्वागत आहे.</string>
 
 
     <string name="abouttext"> Yave Shama Evangelical Church is a multi-lingual full-gospel Assembly of God (AG) Church in Pune City.
@@ -34,27 +35,11 @@ View Worship Schedule
 
 
     </string>
-    <string name="Link_Request">If you don\'t have E-mail account <u> Click Here </u> </string>
+    <string name="Link_Request"> If you don\'t have E-mail account <u> Click Here </u> </string>
 
-    <string name="swap"> --------- swap --------- </string>
+    <string name="swap"> -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45; swap -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45; </string>
 
 
-    <string name="vision">
-
-    The Christian Reformed Church is a diverse family of healthy congregations, assemblies, and ministries expressing the good news of God’s kingdom that transforms lives and communities worldwide.
-</string>
-
-    <string name="mision">
-
-    \nAs people called by God,
-
-    \n\n We gather to praise God, listen to him, and respond.
-      \n\n We nurture each other in faith and obedience to Christ.
-      \n\n We love and care for one another as God's people.
-      \n\n We commit ourselves to serve and to tell others about Jesus.
-      \n\n We pursue God's justice and peace in every area of life.
-
-</string>
 
 
     <string name="pastormsg"> Rev. Narendra V. Gaikwad has been the pastor of Pune Yave Shama Evangelical Church ever since its genesis in 1993.
@@ -74,8 +59,8 @@ View Worship Schedule
 \n\n Rev. Narendra V. Gaikwad
 \nFounder and Senior Pastor</string>
 
+-->
 
-    <string name="staff"> Ministerial Staff </string>
     <string name="title_activity_testimonial">Testimonial</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
@@ -84,7 +69,11 @@ View Worship Schedule
 
 
     <string name="note"><i> Click Following any Button To Pay now.</i></string>
-    <string name="sharelink">To Download Yawhe Shamma TV Android application click on following link.   \\n\\n     https://play.google.com/store/apps/details?id=grdpinfotech.ganeshsatkar.yavechurch</string>
+
+    <string name="sharelink">To Download Yawhe Shamma TV Android application click on following link.
+        \n\n https://play.google.com/store/apps/details?id=grdpinfotech.ganeshsatkar.yavechurch </string>
+
+    <string name="copyright">Copyright @ Yawhe Shamma Evangelical Church</string>
 
 
 </resources>
