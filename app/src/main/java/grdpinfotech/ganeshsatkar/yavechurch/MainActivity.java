@@ -194,6 +194,8 @@ import static android.content.Intent.createChooser;
         if (isOnline()) {
                Toast.makeText(MainActivity.this, "You are connected to Internet", Toast.LENGTH_SHORT).show();
 
+            //webView.loadUrl("https://www.grdpinfotech.com/church/");
+
             webView.loadUrl("https://www.youtube.com/channel/UCdUEvdSqptvoLh6R7y79v5w");
             WebSettings webSettings = webView.getSettings();
             webSettings.setJavaScriptEnabled(true);
@@ -336,7 +338,7 @@ import static android.content.Intent.createChooser;
 
         if (id == R.id.drivecheck) {
 
-            Intent launchGoogleChrome = getPackageManager().getLaunchIntentForPackage("com.google.android.apps.youtube.creator");
+            Intent launchGoogleChrome = getPackageManager().getLaunchIntentForPackage("org.wordpress.android");
             startActivity(launchGoogleChrome);
 
 
@@ -390,13 +392,13 @@ import static android.content.Intent.createChooser;
             //  startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/channel/UCqkYdg0BCQLJ1p3Hn9vjATw")));
 
 
-        }  else if (id == R.id.bibleread) {
+        /*}  else if (id == R.id.bibleread) {
             Intent i = new Intent(MainActivity.this, Payment_read_bible.class);
             startActivity(i);
-
+*/
             //  startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/channel/UCqkYdg0BCQLJ1p3Hn9vjATw")));
 
-        }  else if (id == R.id.churchpoem) {
+        }  else if (id == R.id.churchstory) {
             Intent i = new Intent(MainActivity.this, Church_poem.class);
             startActivity(i);
 

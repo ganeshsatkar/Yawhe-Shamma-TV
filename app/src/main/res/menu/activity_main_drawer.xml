@@ -30,18 +30,18 @@
         </item>
 
 
-        <item
+       <!-- <item
             android:id="@+id/bibleread"
             android:icon="@drawable/bibleread"
             android:title="Bible Read"
             tools:ignore="HardcodedText">
-        </item>
+        </item>-->
 
 
         <item
-            android:id="@+id/churchpoem"
+            android:id="@+id/churchstory"
             android:icon="@drawable/churchpoem"
-            android:title="Church Poem"
+            android:title="Church Story"
             tools:ignore="HardcodedText">
         </item>
 
@@ -59,7 +59,7 @@
 
             <item
                 android:id="@+id/testimonial1"
-                android:icon="@drawable/drsignby"
+                android:icon="@drawable/bibleread"
                 android:title="Testimonial" >
             </item>
 

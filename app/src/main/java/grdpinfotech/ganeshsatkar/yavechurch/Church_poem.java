@@ -30,7 +30,7 @@ private long backPressedTime;
             bar=(ProgressBar) findViewById(R.id.progressBar2);
             webView.setWebViewClient(new myWebclient());
             webView.getSettings().setJavaScriptEnabled(true);
-            webView.loadUrl("https://yawheshammachurch.wordpress.com/church-poem/");
+            webView.loadUrl("https://yawheshammachurch.wordpress.com/blog/");
 
 
         }

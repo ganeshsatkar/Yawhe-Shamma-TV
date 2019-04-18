@@ -7,8 +7,8 @@ android {
         applicationId "grdpinfotech.ganeshsatkar.yavechurch"
         minSdkVersion 17
         targetSdkVersion 27
-        versionCode 20
-        versionName '1.2.0'
+        versionCode 21
+        versionName '1.2.1'
         vectorDrawables.useSupportLibrary = true
     }
     buildTypes {

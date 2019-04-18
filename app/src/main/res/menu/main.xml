@@ -37,11 +37,11 @@
 
             <item
                 android:id="@+id/mailcheck"
-                android:title="Schedule" />
+                android:title="Video Details" />
 
             <item
                 android:id="@+id/drivecheck"
-                android:title="Private" />
+                android:title="Post Story" />
 
 
 
