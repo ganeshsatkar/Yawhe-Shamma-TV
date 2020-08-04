@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Yawhe-Shamma-TV.iml" filepath="$PROJECT_DIR$/.idea/modules/Yawhe-Shamma-TV.iml" group="Yawhe-Shamma-TV" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Yawhe-Shamma-TV-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Yawhe-Shamma-TV-app.iml" group="Yawhe-Shamma-TV/app" />
       <module fileurl="file://$PROJECT_DIR$/YawheShama_V15.iml" filepath="$PROJECT_DIR$/YawheShama_V15.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
