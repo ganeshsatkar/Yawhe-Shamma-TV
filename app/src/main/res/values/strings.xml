@@ -1,11 +1,12 @@
 <resources>
     <string name="app_name">Yawhe Shamma TV </string>
-    <string name="addUnit">ca-app-pub-7233052509464359/5936673806</string>
+
+   <!--<string name="addUnit">ca-app-pub-7233052509464359/5936673806</string>-->
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
-    <string name="contactus1"><b> GRDP InfoTech, Pune </b></string>
+    <string name="contactus1"><b> GRDP INFOTECH LLP, Pune </b></string>
 
 
 

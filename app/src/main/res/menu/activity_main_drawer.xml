@@ -30,14 +30,6 @@
         </item>
 
 
-       <!-- <item
-            android:id="@+id/bibleread"
-            android:icon="@drawable/bibleread"
-            android:title="Bible Read"
-            tools:ignore="HardcodedText">
-        </item>-->
-
-
         <item
             android:id="@+id/churchstory"
             android:icon="@drawable/churchpoem"
@@ -62,6 +54,14 @@
                 android:icon="@drawable/bibleread"
                 android:title="Testimonial" >
             </item>
+
+
+            <item
+                android:id="@+id/concall"
+                android:icon="@drawable/mobile"
+                android:title="Conference Call"
+                tools:ignore="HardcodedText" />
+
 
             <item
                 android:id="@+id/share"

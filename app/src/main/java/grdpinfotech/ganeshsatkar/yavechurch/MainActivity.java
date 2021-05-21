@@ -41,8 +41,8 @@ import static android.content.Intent.createChooser;
     private boolean exit = false;
     private WebView webView;
     TextView tt;
-    AdView adView;
-    private InterstitialAd interstitialAd;
+  /*  AdView adView;
+    private InterstitialAd interstitialAd;*/
 
 
 // bottomnavigation
@@ -205,7 +205,7 @@ import static android.content.Intent.createChooser;
 
 
 
-            adView = (AdView) findViewById(R.id.adView);
+          /*  adView = (AdView) findViewById(R.id.adView);
 
             //webView.onPause();
             // webView.pauseTimers();
@@ -213,7 +213,7 @@ import static android.content.Intent.createChooser;
             adView.loadAd(adRequest);
 
             interstitialAd = new InterstitialAd(this);
-            interstitialAd.setAdUnitId("ca-app-pub-7233052509464359/5936673806");
+            interstitialAd.setAdUnitId("ca-app-pub-00000000/000000");
             interstitialAd.loadAd(new AdRequest.Builder().addTestDevice(AdRequest.DEVICE_ID_EMULATOR).build());
             interstitialAd.setAdListener(new AdListener() {
                 @Override
@@ -222,7 +222,7 @@ import static android.content.Intent.createChooser;
                     finish();
                     interstitialAd.loadAd(new AdRequest.Builder().addTestDevice(AdRequest.DEVICE_ID_EMULATOR).build());
                 }
-            });
+            });*/
 
         } else {
             Toast.makeText(MainActivity.this, "You are not connected to Internet", Toast.LENGTH_LONG).show();
@@ -408,15 +408,30 @@ import static android.content.Intent.createChooser;
 
         } else if (id == R.id.broadcast) {
 
-            Intent launchYouTube1 = getPackageManager().getLaunchIntentForPackage("com.google.android.youtube");
+            Intent Concall = getPackageManager().getLaunchIntentForPackage("com.google.android.youtube");
 
-            startActivity(new Intent(launchYouTube1.ACTION_VIEW, Uri.parse("https://www.youtube.com/channel/UCdUEvdSqptvoLh6R7y79v5w")));
+            startActivity(new Intent(Concall.ACTION_VIEW, Uri.parse("https://www.youtube.com/channel/UCdUEvdSqptvoLh6R7y79v5w")));
 
             /*Intent launchGoogleChrome = getPackageManager().getLaunchIntentForPackage("com.vaultmicro.camerafi.live");
             startActivity(launchGoogleChrome);*/
 
 
         }
+
+
+          else if (id == R.id.concall) {
+
+               Intent launchYouTube1 = getPackageManager().getLaunchIntentForPackage("com.freeconferencecall.fccmeetingclient");
+
+               startActivity(new Intent(launchYouTube1.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.freeconferencecall.fccmeetingclient")));
+
+            /*Intent launchGoogleChrome = getPackageManager().getLaunchIntentForPackage("com.vaultmicro.camerafi.live");
+            startActivity(launchGoogleChrome);*/
+
+
+           }
+
+
 
         else if (id == R.id.testimonial1) {
 
@@ -474,16 +489,11 @@ import static android.content.Intent.createChooser;
 
     public void next()
     {
-        if(interstitialAd.isLoaded())
-        {
-            interstitialAd.show();
-        }
-        else
-        {
+
             //    startActivity(new Intent(MainActivity.this,Next.class));
             // startActivity(new Intent(MainActivity.this,Designby.class));
             finish();
-        }}
+        }
 
 
 
